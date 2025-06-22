@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/register" element={<Registered />} />
+        
         <Route
           path="/private-page"
           element={
@@ -19,6 +20,7 @@ function App() {
             </PrivateRoute>
           }
         />
+
       </Routes>
     </BrowserRouter>
   );
